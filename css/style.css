@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@600;700&family=Roboto+Slab:wght@400;700;800&display=swap');
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab' ,"Inknut Antiqua" , monospace , Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* menu */
+.menu{
+    background-color: #F27619;
+    
+}
+.menu-space{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.container{
+    display: flex;
+    margin: auto;
+    
+    padding: 0px 122px;
+    align-items: center;
+    width: 1440px;
+}
+.logo{
+    margin-top: 15px;
+}
+.menu-list {
+    display: flex;
+}
+
+.menu-list ul{
+    display: flex;
+    align-items: center;
+}
+.menu-list li{
+    list-style: none;
+    margin-right: 42px;
+    font-size: 14px;
+    font-weight: bold;
+    list-style: none; 
+    
+}
+.menu-list a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu-list li a:hover{
+    border-bottom: 2px solid #fff;
+}
+.wish{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    width: 207;
+    height: 42;
+    background-color: #00AC00;
+    padding: 13px 30px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+.wish:hover{
+    background-color: #016801;
+    transition: 0.2s;
+    
+}
+
+
+/* main */
+
+.focus-part{
+    background-color: #FE9000;
+    height: 678px;
+}
+.left-side{
+    flex: 1;
+    height: 100%;
+}
+.left-side h1{
+    font-size: 50px;
+    font-family: "Inknut Antiqua";
+    line-height: 75px;
+    font-weight: bold;
+    margin-top: 102px;
+    margin-bottom: 24px;
+    color: #853900;
+}
+
+.left-side p{
+    margin-bottom: 61px;
+    font-size: 28px;
+    color: #853900;
+}
+
+.right-side{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    height: 100%;
+
+}
+.right-side img{
+    width: 430px;
+    height: 497px;
+   
+   
+}
+
+
+.wish-page{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 300px;
+    height: 68px;
+    background-color: #00AC00;
+    padding: 21px 46px;
+    border-radius: 8px;
+    transition: 0.2s;
+   
+}
+.wish-page:hover{
+    background-color: #016801;
+    transition: 0.2s;
+    
+}
+
+.wave{
+    margin-top: -180px;
+}
+.between-waves{
+    width: 100%;
+    height: 219px;
+    background-color:#F27619;
+    margin-top: -20px;
+}
+.wave--down{
+    margin-top: -10px;
+}
+
+
+/* Cards */
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 354px;
+    height: 388px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -300px;
+    z-index: 1;
+    border: 8px solid #fff;
+    border-radius: 8px;
+    box-shadow: 0px 14px 19px 0px  rgba(0, 0, 0, 0.13);
+
+}
+.cards-group{
+    display: flex;
+    justify-content: space-around;
+
+}
+.cake{
+    background-color: #853900;
+    margin-right: 60px;
+}
+.salty{
+    background-color: #FE9000;
+    margin-right: 60px;
+}
+.frozen{
+    background-color: #FFA024;
+}
+
+.card img{
+    margin-top: -99px;
+    margin-bottom: 47px;
+}
+.card h2{
+    color: #141414;
+    font-size: 26px;
+    font-weight: bold;
+}
+.card p{
+    text-align: center;
+    padding: 20px 54px 32px 53px ;
+    font-size: 24px;
+    color: #231C13;
+}
+
+.wave-three{
+    margin-top: 159px;
+    
+}
+
+
+/* who-are */
+.who-are{
+    height: 511px;
+    background-color: #F27619;
+    margin-top: -10px;
+}
+.baker{
+    z-index: 1;
+}
+.baker img{
+    margin-top: -150px;
+    
+}
+
+.who{
+    flex: 1;
+    margin-left: 81px;
+}
+.who h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family:"Inknut Antiqua" ;
+    color: #853900;
+    line-height: 75px;
+    margin-bottom: 25px;
+
+}
+.who p{
+    font-size: 24px;
+}
+footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("img/imgs-site/rodape.jpg");
+    background-position: top;
+    background-size: cover;
+    height: 695px;
+    
+    
+    
+}
+.baseboard h2{
+    font-family: "Inknut Antiqua";
+    font-weight: 600;
+    font-size: 50px;
+    color: #FFFBFB;
+    line-height: 75px;
+    margin-top: 140px;
+    margin-bottom: 20px;
+
+}
+.baseboard p {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    color: #FFFBFB
+
+   
+}
+.baseboard p a{
+    text-decoration: none;
+    color: #FFC700;
+    margin-top: 20px;
+    
+}
+.baseboard a{
+    margin-top: 40px;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .container{
+        max-width: 768px;
+    }
+    .menu-list ul{
+        display: none;
+    }
+    .focus-part {
+        background-color: #FE9000;
+        height: 500px;
+    }
+    .left-side h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .left-side p{
+        font-size: 22px;
+    }
+    .right-side{
+        display: none;
+    }
+    .card{
+        display: none;
+    }
+    .spacer{
+        display: none;
+    }
+   .wave{
+    display: none;
+   }
+   .waves--space-two{
+    display: none;
+   }
+   .baker img {
+    display: none;
+    }
+    .who-are{
+        height: 320px;
+    }
+    .who{
+        margin: 0;
+    }
+    .who h1{
+        font-size: 30px;
+    }
+    .who p{
+        font-size: 18px;
+    }
+    .baseboard h2 {
+        
+        font-size: 30px;
+        
+        line-height: 40px;
+        margin-top: 80px;
+        margin-bottom: 20px;
+    }
+    .baseboard p{
+        font-size: 18px;
+    }
+    footer{
+        height: 500px;
+    }
+   
+}
+
+@media only screen and (max-width: 760px){
+    .container{
+        padding:  0px 40px;
+        width: 375px;
+    }
+    .wish-page {
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 16px;
+        background-color: #00AC00;
+        padding: 8px 15px;
+        border-radius: 8px;
+        transition: 0.2s;
+    }
+    .logo img{
+        margin-left: 80px;
+    }
+    .menu-list{
+        display: none;
+    }
+    .focus-part {
+        background-color: #FE9000;
+        height: 500px;
+    }
+    .left-side h1{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .left-side p{
+        font-size: 22px;
+    }
+    .right-side{
+        display: none;
+    }
+    .card{
+        display: none;
+    }
+    .spacer{
+        display: none;
+    }
+   .wave{
+    display: none;
+   }
+   .waves--space-two{
+    display: none;
+   }
+   .baker img {
+    display: none;
+    }
+    .who-are{
+        height: 400px;
+    }
+    .who{
+        margin: 0;
+    }
+    .who h1{
+        font-size: 26px;
+    }
+    .who p{
+        font-size: 16px;
+    }
+    .baseboard h2 {
+        margin-top: 80px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .baseboard p{
+        font-size: 14px;
+    }
+    footer{
+        height: 400px;
+    }
+   
+}
+
+
